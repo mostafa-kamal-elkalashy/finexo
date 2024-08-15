@@ -1,0 +1,469 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+.frist-sec{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://finexo-8cc9c.web.app/images/hero-bg.png');
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.frist-sec .nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.frist-sec .nav .logo{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.frist-sec .nav .link{
+    width: 50%;
+}
+.frist-sec .nav .link ul{
+    list-style-type:none ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.frist-sec .nav .link ul li a{
+    text-decoration: none;
+    color: white;
+}
+ i:hover{
+    color: #08bbf0;
+}
+.frist-sec .caption{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.frist-sec .contaner-f{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.frist-sec .caption .contaner-f .text{
+    width: 50%;
+    color: white;
+    padding-top: 30px;
+}
+.frist-sec .caption .contaner-f .text h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.frist-sec .caption .contaner-f .text p{
+    width: 60%;
+    color: white;
+}
+.frist-sec .caption .contaner-f .text button{
+    background-color: #08bbf0;
+    width:180px ;
+    height:40px ;
+    border: none;
+    margin-top: 30px;
+}
+.frist-sec .contaner-f .img{
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 1s;
+    
+}
+.frist-sec .contaner-f .img img{
+    height: 90%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+   animation-name: img;
+   animation-duration: 3s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   
+}
+@keyframes img{
+    form{
+        top:0;
+    }
+    to{
+        top:30%;
+    }
+}
+/*end the head seaction*/
+
+
+.secend-sec{
+    width: 100%;
+    height:65vh;
+    padding-top: 30px;
+}
+.secend-sec-text{
+    text-align: center;
+}
+.secend-sec-text h2{
+    font-size: 35px;
+    font-weight: bolder;
+    color:#08bbf0;
+}
+.secend-sec-text h2 span{
+    color: black;
+    padding-right: 7px;
+}
+
+.secend-sec-diration{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.secend-sec-diration div{
+    width: 30%;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 50px;
+}
+.secend-sec-diration div img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}.big-button{
+width: 100%;
+}
+.button{
+    width: 80%;
+    display: flex;
+   justify-content: space-around;
+   margin: auto;
+}
+.button button{
+    width: 200px;
+    height: 40px;
+    background-color: #08bbf0;
+    margin-top: 240px;
+    border: none;
+}
+
+/*end secend section*/
+
+
+.three-sec{
+    box-sizing: border-box;
+    width: 100%;
+    height: 80vh;
+    background-color: #00204a;
+    padding-top: 50px;
+    
+}
+.three-sec .contaner-t{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.three-sec .contaner-t .text-t{
+    text-align: center;
+    color: white;
+    line-height: 3px;
+
+}
+.three-sec .contaner-t .text-t h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.three-sec .contaner-t .text-t h3 span{
+    color:#08bbf0;
+    padding-left: 10px;
+}
+.three-sec .contaner-t .contant-t {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.three-sec .contaner-t .contant-t .img-t{
+    width: 45%;
+}
+.three-sec .contaner-t .contant-t .img-t img{
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    
+}
+.three-sec .contaner-t .contant-t .caption-t{
+    width: 45%;
+    color: white;
+    padding-top: 30px;
+}
+.three-sec .contaner-t .contant-t .caption-t h3{
+    font-size:50px ;
+    font-weight: bold;
+}
+.three-sec .contaner-t .contant-t .caption-t p{
+    font-size: 20px;
+}
+.three-sec .contaner-t .contant-t .caption-t button{
+    width: 140px;
+    height: 40px;
+    background-color: #08bbf0;
+    border: none;
+    color: white;
+}
+
+
+
+/*end three section*/
+
+
+.fore-sec{
+    width: 100%;
+    height: auto;
+}
+.fore-sec .contaner-f{
+    width: 80%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.fore-sec .contaner-f img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.fore-sec .contaner-f div{
+    text-align: center;
+    align-items: center;
+}
+.fore-sec .contaner-f div h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.fore-sec .contaner-f div h3 span{
+    color: #08bbf0;
+    padding-left: 10px;
+}
+.fore-sec .contaner-f div h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fore-sec .contaner-f div button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #08bbf0;
+    margin-bottom: 20px;
+}
+
+/*end fore section*/
+
+.five-sec{
+    width: 100%;
+    height: 80vh;
+    background-color: #00204a;
+    text-align: center;
+    padding-top: 50px;
+}
+.five-sec h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}.five-sec h3 span{
+    color: #08bbf0;
+    padding-left: 10px;
+}
+.five-sec .contaner-fiv
+.caption-fiv{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.five-sec .contaner-fiv
+.caption-fiv .div{
+    width: 16%;
+    height: auto;
+    text-align: center;
+    border: none;
+    background-color: #012a61b8;
+    padding: 20px;
+    border-radius: 10px;
+}
+.five-sec .contaner-fiv
+.caption-fiv .div img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.five-sec .contaner-fiv
+.caption-fiv .div h4{
+    color: #08bbf0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.five-sec .contaner-fiv
+.caption-fiv .div h5{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.five-sec .contaner-fiv
+.caption-fiv .div .icon-fiv{
+    margin: auto;
+}
+.five-sec .contaner-fiv
+.caption-fiv .div .icon-fiv ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-right: 25px;
+}
+li:hover{
+    color: #08bbf0;
+    transform: scale(1.2,1.2);
+}
+
+/*end five section*/
+
+
+
+.six-sec{
+    width: 100%;
+    height: 60vh;
+    box-sizing: border-box;
+}
+.six-sec .contaner-s{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+.six-sec .contaner-s h3{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.six-sec .contaner-s h3 span{
+    color: #08bbf0;
+    padding-left: 10px;
+}
+.six-sec .contaner-s .caption-s{
+    display: flex;
+    justify-content: space-around;
+}
+.six-sec .contaner-s .caption-s .div-s{
+    width: 40%;
+    padding: 20px;
+    
+}
+.six-sec .contaner-s .caption-s .div-s img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+}
+.six-sec .contaner-s .caption-s .div-s h4{
+    font-size: 20px;
+    color: black;
+}
+.six-sec .contaner-s .caption-s .div-s p{
+    color: rgb(49, 49, 49);
+}
+/*end six section */
+
+
+.foot{
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    background-color: #00204a;
+    margin: auto;
+    color: white;
+    padding-top: 50px;
+}
+.foot .contaner-foot{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.foot .contaner-foot .count1{
+    width: 15%;
+}.foot .contaner-foot .count1 h4{
+    font-size: 30px;
+    font-weight: bold;
+}.foot .contaner-foot .count1  .icon-foot{
+    padding-right: 70px;
+}
+.foot .contaner-foot .count1  .icon-foot ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px 5px;
+  
+}
+.foot .contaner-foot .count1 .div {
+    position: relative;
+    line-height: 1px;
+    padding-top: 10px;
+    
+}
+.foot .contaner-foot .count1 .div p{
+    padding-left: 25px;
+}
+.foot .contaner-foot .count1 .div i{
+ position: absolute;
+}
+
+.foot .contaner-foot .count2{
+    width: 20%;
+}
+.foot .contaner-foot .count2 h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+.foot .contaner-foot .count3{
+    width: 10%;
+}
+.foot .contaner-foot .count3 h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+   
+}
+.foot .contaner-foot .count3 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.foot .contaner-foot .count4{
+    width: 10px;
+    padding-right:120px;
+}
+.foot .contaner-foot .count4 h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+   
+}
+.foot .contaner-foot .count4 button{
+    margin-top: 30px;
+    width: 170px;
+    height: 40px;
+    background-color: #08bbf0;
+    border: none;
+}
+
